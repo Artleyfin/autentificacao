@@ -15,7 +15,6 @@ import {
     Text,
     TextInput
 } from 'react-native-paper';
-import { auth } from '../src/config/firebaseConfig';
 
 export default function CadastroScreen() {
     // 📌 QUESTÃO 2 - Estados para dados do usuário
