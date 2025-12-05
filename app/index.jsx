@@ -107,7 +107,7 @@ export default function LoginScreen({ navigation }) {
             {/* Quando clicado, navega para a tela de cadastro (criaremos na Parte 2) */}
             <Button
                 mode="text"
-                onPress={() => navigation.navigate('Cadastro')}
+                onPress={() => router.replace('Cadastro')}
                 style={styles.botaoTexto}
             >
                 Não tem conta? Cadastre-se

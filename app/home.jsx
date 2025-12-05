@@ -33,11 +33,18 @@ export default function HomeScreen() {
             </Text>
             <Button
                 mode="contained"
-                onPress={handleLogout}
+                onPress={handleLogout} //router.replace('produto')
                 style={styles.botao}
             >
                 Sair
             </Button>
+             <Button
+                mode="contained"
+                onPress={router.navigate('produto')} //router.replace('produto')
+                style={styles.botao}
+            >
+                Cadastrar Produto
+            </Button>       
         </View>
     );
 }
